@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <script src="//code.jquery.com/jquery.min.js"></script> 
+    <title>Assignment 2: IT World</title>
+</head>
+<body >                      
+    <div class="nav" id="nav-holder"></div>
+    <script>
+        $.get("Nav.html", function(data){
+            $("#nav-holder").replaceWith(data);
+        });
+    </script>
+    <div class="Mainpage1"> 
+        <h1>
+            Changrett Hel1um
+        </h1>
+        <h2>
+            RMIT VN - COSC2083 - Introduction to Information Technology
+        </h2>
+        <p> The Pandemic has been a hot topic for quite some times now, it has been affecting everyone's life and mental health.</p>
+        <p> So, as a group, we decided to look into it.</p>
+        <p> What can we do? How can we help?</p>
+        <p> As RMIT VN students, we are learning about IT and using it to aid our process of completing this project.</p>
+        <p>We form this group as a project on finding a solution to solve for the pandemic causes.</p>
+    </div>   
+        <img class="background_image" src="logo/bg_image5.jpg" alt="">
+    
+    <div class="Mainpage2">
+        <h1>Members</h1>
+        <div class="Container">
+            <div class="Box2" style="flex:1">
+                <a href="HoangSon.html" >Hoang Son Vu</a>
+                <p>Group Leader and Web Developer</p>
+                <p>ID: s3921295</p>
+            </div>
+
+            <div class="Box2" style="flex:1">
+                <a href="KhangLam.html" >Nhi Lam Khang</a>
+                <p>Documenter</p>
+                <p>ID: s3914580</p>
+            </div>
+        </div>
+
+        <div class="Container">
+            <div class="Box2" style="flex:1">
+                <a href="AnhVyBui.html" >Bui Anh Vy</a>
+                <p>Contributer</p>
+                <p>ID: s3891641</p>
+            </div>
+
+            <div class="Box2" style="flex:1">
+                <a href="HaVietPham.html" >Pham Viet Ha</a>
+                <p>GitHub Management</p>
+                <p>ID: s3927580 </p>
+            </div>
+        </div>
+        <!-- <div class="GDrive_image">
+            <img src="logo/google drive.png" alt="">
+        </div> -->
+    </div>
+    
+    <div class="copyright">
+        <p>
+            © Copyright 2021 Changrett Hel1um. All rights reserved.
+        </p>
+    </div>
+    
+</body>
+</html>
